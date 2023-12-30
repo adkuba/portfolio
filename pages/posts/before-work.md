@@ -1,8 +1,8 @@
 ---
-title: Markdown Examples
-date: 2021/3/19
-description: View examples of all possible Markdown options.
-tag: web development
+title: Before work
+date: 2021/06/01
+description: All projects that led me to my first Junior position.
+tag: projects
 author: You
 ---
 
