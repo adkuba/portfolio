@@ -4,18 +4,40 @@ title: home
 date: 2021-04-01
 ---
 
+import Image from "next/image";
+import LinkBadge from "../components/link-badge";
+
 <h1>Jakub Adamski 👐</h1>
 
 As a Java Developer and Artificial Intelligence enthusiast, I'm currently contributing to projects at MatchTrade Technologies, where my work involves developing and maintaining software solutions for financial market.
+
+<div className="image-container">
+    <div>
+        <Image
+            src="/images/me.jpg"
+            alt="Photo"
+            width={1405}
+            height={1700}
+            priority/>
+    </div>
+    <div className="image-spacer"/>
+    <div>
+        <Image
+            src="/images/horse-jumping.jpg"
+            alt="Photo"
+            width={1440}
+            height={1700}
+            priority/>
+    </div>
+</div>
 
 In my master's studies, I've dived into data preprocessing for my thesis, sparking a real passion for AI. Attending international conferences has not only broadened my horizons but also intensified my belief in AI's power to revolutionize technology and research.
 
 Beyond technology, I am a certified horse riding coach. This role has allowed me to share my passion for equestrian sports. I also enjoy running, which I find to be a great way to clear my mind and stay fit.
 
+<LinkBadge link={"https://www.linkedin.com/in/jakub-adamski-07a6961b8/"} image={"/images/Linkedin.png"} width={821} height={214}/>
+<LinkBadge link={"https://github.com/adkuba"} image={"/images/GitHub_Logo.png"} width={884} height={214}/>
+
 My freelancing experience spans diverse projects, from developing systems for publishing houses to creating management applications for horse riding schools. You can read more about it in my posts.
 
-Find me on other platforms.
-
-- [LinkedIn](https://www.linkedin.com/in/jakub-adamski-07a6961b8/)
-- [GitHub](https://github.com/adkuba)
-- adamski@aplilab.com
+Contact me: adamski@aplilab.com
