@@ -7,3 +7,7 @@ author: Jakub Adamski
 ---
 
 ## TODO
+
+https://aplilab.com/school
+
+https://czytelnia.aplilab.com/
